@@ -47,7 +47,7 @@ Handle | UUID | Description
 - 在每個Service中，會用UUID = 0x2803分隔每個characteristics。
 
 Handle | UUID | Description | Value
----------| --------- | ---------
+---------| --------- | --------- | ---------
 0x0100 | 0x2800 | Thermometer service definition | UUID 0x1816
 0x0101 | 0x2803	| Characteristic: temperature | UUID 0x2A2B   
 Value handle: 0x0102
