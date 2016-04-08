@@ -28,6 +28,7 @@ GATT protocol定義了兩個術語
 每個Characteristics會有一個property(屬性)、value(值)以及數個descriptor(描述)
 
 ###Service
+
 Handle | UUID | Description
 - | - | -
 0x0100 | 0x2800 | Service A definition
