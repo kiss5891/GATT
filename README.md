@@ -19,7 +19,7 @@ Services，通過這樣的形式把數據包給Client。把ATT定義的屬性根
 ![GATT protocol](/image/GATT profiles.png)   
 GATT protocol定義了兩個術語
 - Service
-- Characteristics   
+- Characteristics
 ###Service (服務)
 每個Service裡，會包含多個Characteristics
 ###Characteristics (特徵)
