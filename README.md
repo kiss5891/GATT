@@ -30,18 +30,13 @@ GATT protocol定義了兩個術語
 ###Service
 
 Handle | UUID | Description
-- | - | -
+---------| --------- | ---------
 0x0100 | 0x2800 | Service A definition
 ... | ... | Service details
 0x0150 | 0x2800 | Service B definition
 ... | ... | Service details
 0x0300 | 0x2800 | Service C definition
 ... | ... | Service details
-
-name | id | code
-- | - | -
-gitbook | 1 | nodejs
-wordpress | 2 | php
 
 
 - 所有的Service會用UUID = 0x2800定義服務的起點。
