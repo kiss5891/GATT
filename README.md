@@ -11,7 +11,7 @@ Services，通過這樣的形式把數據包給Client。把ATT定義的屬性根
 ##ATT
 存資料的資料結構   
 三種元素   
-一個16位的handle   
-一個UUID，定義了attribute的類型   
-一個value
+- 一個16位的handle   
+- 一個UUID，定義了attribute的類型   
+- 一個value
 
