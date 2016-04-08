@@ -15,3 +15,10 @@ Services，通過這樣的形式把數據包給Client。把ATT定義的屬性根
 - 一個UUID，定義了attribute的類型   
 - 一個value
 
+##GATT protocol
+![GATT protocol](/image/GATT profiles.png)
+###Service (服務)
+每個Service裡，會包含多個Characteristics
+###Characteristics (特徵)
+每個Characteristics會有一個property(屬性)、value(值)以及數個descriptor(描述)
+
