@@ -49,9 +49,7 @@ Handle | UUID | Description
 Handle | UUID | Description | Value
 ---------| --------- | --------- | ---------
 0x0100 | 0x2800 | Thermometer service definition | UUID 0x1816
-0x0101 | 0x2803	| Characteristic: temperature | UUID 0x2A2B   
-Value handle: 0x0102
+0x0101 | 0x2803	| Characteristic: temperature | UUID 0x2A2B Value handle: 0x0102
 0x0102 | 0x2A2B | Temperature value | 20 degrees
-0x0110 | 0x2803 | Characteristic: date/time | UUID 0x2A08   
-Value handle: 0x0111
+0x0110 | 0x2803 | Characteristic: date/time | UUID 0x2A08 Value handle: 0x0111
 0x0111 | 0x2A08 | Date/Time | 1/1/1980 12:00
