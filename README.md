@@ -16,6 +16,7 @@ Services，通過這樣的形式把數據包給Client。把ATT定義的屬性根
 - 一個value
 
 ##GATT protocol
+架構圖   
 ![GATT protocol](/image/GATT profiles.png)   
 GATT protocol定義了兩個術語
 - Service
@@ -26,3 +27,18 @@ GATT protocol定義了兩個術語
 ###Characteristics (特徵)
 每個Characteristics會有一個property(屬性)、value(值)以及數個descriptor(描述)
 
+###Service
+Handle | UUID | Description
+- | - | -
+0x0100 | 0x2800 | Service A definition
+... | ... | Service details
+0x0150 | 0x2800 | Service B definition
+... | ... | Service details
+0x0300 | 0x2800 | Service C definition
+... | ... | Service details
+
+- 所有的Service會用UUID = 0x2800定義服務的起點。
+- handle的數值是服務的UUID，代表這個服務是什麼。
+- Service A所屬的handle[0x0100~0x0150]
+
+###Characteristic
