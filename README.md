@@ -28,7 +28,7 @@ GATT protocol定義了兩個術語
 每個Characteristics會有一個property(屬性)、value(值)以及數個descriptor(描述)
 
 ###Service
-
+'''bash
 Handle | UUID | Description
 - | - | -
 0x0100 | 0x2800 | Service A definition
@@ -37,6 +37,7 @@ Handle | UUID | Description
 ... | ... | Service details
 0x0300 | 0x2800 | Service C definition
 ... | ... | Service details
+'''
 
 - 所有的Service會用UUID = 0x2800定義服務的起點。
 - handle的數值是服務的UUID，代表這個服務是什麼。
