@@ -10,6 +10,8 @@ Because the workspace is split into two projects (application and stack), the fo
 7. Select the stack project as the active project.
 8. Select Run → Debug to download the stack.<br>
 By (http://www.ti.com.cn/cn/lit/ug/swru393b/swru393b.pdf)
+
+***
 ![yuml.me](http://yuml.me/e284bdd4)
 ___
 ![jpg](./img/SensorTag.jpg)
