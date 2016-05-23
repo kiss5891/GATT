@@ -23,4 +23,22 @@ start
 '''
 =======
 
->>>>>>> fce5e5b6c1c7a4a990c809c7101dac4212b78908
+add system_printf
+
+Here main steps (for TI BLE stack applications):
+
+1) Modify your appBLE.cfg config file (e.g. CCS > Project Explorer > YourApp > TOOLS > appBLE.cfg)
+
+System.SupportProxy = SysCallback; > System.SupportProxy = SysStd;
+
+2) Add SysStd variable
+
+SysStd = xdc.useModule("xdc.runtime.SysStd");
+
+3) Open main module (e.g. CCS > Project Explorer > YourApp > Startup > main.c) and add
+
+#include <xdc/runtime/System.h>
+
+...
+
+System_printf("TEST\n");
