@@ -23,7 +23,7 @@ start
 '''
 =======
 
-add system_printf
+#add system_printf
 
 Here main steps (for TI BLE stack applications):
 
@@ -36,9 +36,9 @@ System.SupportProxy = SysCallback; > System.SupportProxy = SysStd;
 SysStd = xdc.useModule("xdc.runtime.SysStd");
 
 3) Open main module (e.g. CCS > Project Explorer > YourApp > Startup > main.c) and add
-
+```C
 #include <xdc/runtime/System.h>
-
+```
 ...
 
 System_printf("TEST\n");
