@@ -28,7 +28,9 @@ start
 Here main steps (for TI BLE stack applications):
 
 1) Modify your appBLE.cfg config file (e.g. CCS > Project Explorer > YourApp > TOOLS > appBLE.cfg)
-
+var System = xdc.useModule('xdc.runtime.System');
+var SysStd = xdc.useModule('xdc.runtime.SysStd');
+System.SupportProxy = SysStd;
 System.SupportProxy = SysCallback; > System.SupportProxy = SysStd;
 
 2) Add SysStd variable
